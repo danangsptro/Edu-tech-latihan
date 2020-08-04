@@ -1,0 +1,260 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#link1{
+    height: 100vh;
+}
+
+/* NAVBAR  */
+.navbar img{
+    width: 150px;
+}
+/* CONTENT1 */
+.ct1{
+    background-image: url(./img/7db4a9b5-8b3d-4881-ad6d-cc1628030ec7.jpeg);
+    height: 700px;
+    background-size: cover;
+}
+.ct1 h1{
+    font-size: 65px;
+    margin-top: 9rem;
+}
+.ct1 p{
+    font-size: 65px;
+    justify-content: right;
+}
+.ct1 hr{
+    border: 3px solid black;
+}
+.ct1 #bt1{
+    height: 70px;
+    width: 250px;
+    background-color: #30a05c;
+    border:3px solid #47cc7c;
+}
+.ct1 button span{
+    color: rgb(231, 231, 231);
+}
+.ct1 .bwb{
+    position: fixed;
+    margin-left: 1000px;
+    /* position: absolute; */
+}
+/* CONTENT2  */
+.ct2{
+    margin-top: 5rem;
+}
+.ct2 img{
+    width: 130px;
+}
+.ct2 .p1{
+    text-align: center;
+}
+/* #zoom:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s;
+  } */
+.transisi{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    
+}
+
+
+/* CONTENT3 */
+.ct3{
+    background-image: url(./img/bg.jpeg);
+    height: 1100px;
+    background-size: cover;
+    margin-top: 5rem;
+    padding-top: 6rem;
+}
+.ct3 #rw2{
+    margin-top: 9rem;
+}
+.ct3 #p{
+    font-size: 25px;
+    text-align: left;
+}
+.ct3 #bt1{
+    height: 70px;
+    width: 250px;
+    background-color: #30a05c;
+    border:3px solid #47cc7c;
+    margin-left: 25%;
+}
+.ct3 #p1{
+    font-size: 30px;
+}
+/* CONTENT4 */
+.ct4{
+    background-image: url(./img/kuning.jpeg);
+    height: 1300px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 8rem;
+}
+.ct4 p {
+    font-size: 40px;
+}
+.ct4 hr{
+    border: 2px solid black;
+}
+.ct4 #row1{
+    text-align: center;
+    padding-top: 5rem;
+}
+.ct4 #img{
+    width: 300px;
+}
+.ct4 #row2{
+    text-align: center;
+    padding-top: 5rem;
+}
+/* CONTENT5 */
+.ctn5{
+    background-image: url(./img/bg.jpeg);
+    height: 1000px;
+    background-size: cover;
+    padding-top: 3rem;
+}
+#ctn5{
+    margin-top: 3rem;
+}
+#ctn51{
+    margin-top: 5rem;
+}
+.ctn5 #p1{
+    font-size: 40px;
+    text-align: center;
+}
+.ctn5 #p2{
+    font-size: 23px;
+}
+.ctn5 #bt1{
+    height: 70px;
+    width: 250px;
+    background-color: #30a05c;
+    border:3px solid #47cc7c;
+    margin-left: 25%;
+}
+
+/* CONTENT6 */
+.ctn6{
+    text-align: center;
+    padding-top: 5rem;
+    background-image: url(./img/kuning.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 1600px;
+}
+.ctn6 p{
+    font-size: 40px;
+}
+.ctn6 #row {
+    margin-top: 5rem;
+}
+.ctn6lm{
+    text-align: center;
+}
+.ctn6 #row1{
+    margin-top: 5rem;
+    border: 3px solid white;
+    background-color: white;
+    box-shadow: 2px 2px 2px 5px grey;
+    min-height: 700px;
+    width: 1000px;
+}
+.ctn6 h3{
+    font-size: 35px;
+    margin-top: 3rem;
+}
+.ctn6 #h1{
+    color: red;
+}
+.ctn6 #h11{
+    color: #30a05c;
+    font-size: 70px;
+}
+.ctn6 #h5{
+    color: #30a05c;
+}
+.ctn6 #bt1{
+    height: 70px;
+    width: 250px;
+    background-color: #30a05c;
+    border:3px solid #47cc7c;
+}
+.ft{
+    text-align: center;
+    padding: 3rem;
+}
+.ft img{
+    width: 200px;
+}
+
+
+
+
+/* TENTANG-KAMI */
+/* CONTENT  */
+.tk{
+    background-image: url(./img/kuning.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    padding-top: 3rem;
+}
+#tg1{
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgb(158, 158, 158);
+    width: 1000px;
+    height: 800px;
+    padding: 2rem;
+}
+#p{
+    text-align: center;
+    font-size: 30px;
+}
+#tg2{
+    font-size: 20px;
+    padding-top: 2rem;
+}
+.tk img{
+    width: 400px;
+}
+.tk hr{
+    width: 70px;
+    border: 2px solid black;
+}
+
+/* PENDAFTARAN */
+/* FORM  */
+.form{
+    background-image: url(./img/kuning.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    padding-top: 4rem;
+}
+#ftr{
+    background-color: white;
+    padding: 2rem;
+    width: 600px;
+    border-style: dashed ;
+    border-width: 0.5px;
+    border-color: gray;
+    border-radius: 5px;
+}
+.form button{
+    font-size: 15px;
+    padding: 1rem;
+    margin-left: 25%;
+    background-color: #30a05c;
+}
+.form input{
+    background-color:#f3f8fb;
+    border: 1px solid #f3f8fb;
+    height: 60px;
+}

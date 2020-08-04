@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./edu.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+
+
+    <title>EDU-TECH | Pendaftaran</title>
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="./edu-tech.html">
+                <img src="./img/logoedu.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="./edu-tech.html"><strong>Home</strong> <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="./TentangKami.html"><strong>Tentang Kami</strong> <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="./Pendaftaran.html"><strong>Daftar Online</strong> <span
+                            class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="form">
+        <div class="container" id="ftr">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputFullname1">Full Name *</label>
+                    <input type="FullName" class="form-control" id="exampleInputFullName" placeholder="Full Name"
+                        aria-describedby="FullNameHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Phone *</label>
+                    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Phone" >
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email *</label>
+                    <input type="Email" class="form-control" id="exampleInputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputAddress1">Address *</label>
+                    <input type="Address" class="form-control" id="exampleInputAddress" placeholder="Address">
+                </div>
+                <button type="submit" class="btn btn-success" onclick="login()"><strong>DAFTAR KELAS
+                        SEKARANG</strong></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <div class="ft">
+        <div class="container">
+            <div class="container">
+                <img src="./img/logoedu.png" alt="">
+                <p>All Rights Reserved 2020© Edu-tech.id 2020 <br> <strong>Ruko Great Wall B No 28, Jl. Green Lake City
+                        Boulevard, RT.004/RW.008, Cipondoh, Kota Tangerang</strong><br>Email: admin.edu-tech@edutama.id
+                    | Whatsapp: 0857-1857-4908</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function login() {
+            var nama = document.getElementById('exampleInputFullName').value;
+            var phone = document.getElementById('exampleInputPhone').value;
+            var email = document.getElementById('exampleInputEmail').value;
+            var Address = document.getElementById('exampleInputAddress').value;
+            if (nama && phone && email && Address) {
+                document.write('<br>'+ '<center>'+'<h1>Terima Kasih Telah Mendaftar!<h1/>')
+            } else {
+                alert('Mohon isi Terlebih Dahulu!')
+            }
+        }
+        $(document).ready(function(){
+            $('button').on({
+                mouseenter : function(){
+                    $(this).css('background-color', 'green')
+                },
+                mouseleave : function(){
+                    $(this).css('background-color', 'black')
+                }
+            })
+        })
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
